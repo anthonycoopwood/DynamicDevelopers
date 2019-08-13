@@ -107,9 +107,7 @@ h2{
     text-align: center;
 }
 
-#quiz{
-    position: center;
-}
+
 
 
 
@@ -120,4 +118,12 @@ img{
 
 #h1{
     background-color: black;
+}
+
+#form{
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+
 }
