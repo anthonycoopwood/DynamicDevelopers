@@ -9,15 +9,18 @@
          <body>
 
 
-             <ul>
+            <ul>
   <li><a href="index.html">Home</a></li>
   <li><a href="About.html">About</a></li>
-</ul><br>
+</ul>
 
-
+<br> </br>
+<div id="h1">
 <h1> Time Management </h1>
+</div>
+<br> </br>
 
-<h2> What is Time Management? </h2>
+<h2> What is Time Management? </h2><br>
 
 
 
@@ -26,7 +29,7 @@
 
 
 
-<div class="ant's class1">
+<div class="ants class1">
   <div class="row">
     <div class="col">
      <p> Time Management is "the ability to use one's time effectively or productively, especially at work." But it also stems outside of just work;Things like Marrieges,school work , and extra curriculartives.(Which is activities you do after work or school.) In todays society a huge percent of people struggle with time management. </p>
@@ -41,23 +44,40 @@
 
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IGVQPU-L7cQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
-
-
-
-
-
-
-
                </div>
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/IGVQPU-L7cQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-               <footer>
-  <p>This is by Anthony Coopwood</p>
-  <p>Contact information: <a href="anthonycoopwood1@gmail.com">My email.</a>.</p>
-</footer>
+
+
+               <form id = "quiz" name = "quiz">
+
+
+<p class = "questions">What is the capital of Rhode Island?</p>
+<input id = "textbox" type = "text" name = "question1">
+
+<p class = "questions">What is the capital of Connecticut?</p>
+<input type = "radio" id = "mc" name = "question2" value = "Hartford"> Hartford<br>
+<input type = "radio" id = "mc" name = "question2" value = "Heartford"> Heartford<br>
+
+<p class = "questions">What is the capital of New York?</p>
+
+<input type = "radio" id = "mc" name = "question3" value = "Albany"> Albany<br>
+<input type = "radio" id = "mc" name = "question3" value = "All Benny's"> All Benny's<br>
+
+
+<input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+<img id = "picture">
+</div>  <br> </br>
+
+
+
 
 
 
