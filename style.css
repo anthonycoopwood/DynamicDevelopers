@@ -23,7 +23,7 @@ li a:hover {
 
 
 body{
-    background-color: red;
+    background-color: white;
 }
 
 
@@ -97,6 +97,11 @@ h1{
     color: white;
 }
 
+h2{
+    text-align: center;
+    color: white;
+}
+
 #ants class1{
     border: solid line;
     padding: 50px;
@@ -116,7 +121,7 @@ img{
     height: 300px;
 }
 
-#h1{
+.h1{
     background-color: black;
 }
 
@@ -126,4 +131,16 @@ img{
     margin-right: auto;
     width:50%;
 
+}
+
+#video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+
+.questions{
+    color: white;
+    border:  solid black;
 }
